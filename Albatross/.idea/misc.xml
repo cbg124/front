@@ -3,11 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/bg_indicator_active.xml" value="0.245" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/bg_indicator_inactive.xml" value="0.245" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/ic_baseline_west_24.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/item_shape.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/list_shape.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/drawable/search_view_background.xml" value="0.2435" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/font/custom_font.xml" value="0.2796875" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/font/font.xml" value="0.2796875" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/font/fontset.xml" value="0.2796875" />
         <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/activity_list.xml" value="0.24947916666666667" />
         <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/banner_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/bg_indicator_active.xml" value="0.18985334918747523" />
         <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
         <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/fragment_mypage.xml" value="0.24947916666666667" />
         <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/fragment_schedule.xml" value="0.24947916666666667" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/imageview.xml" value="0.24947916666666667" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/item_layout.xml" value="0.24947916666666667" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/item_slider.xml" value="0.24947916666666667" />
+        <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/job_item.xml" value="0.24947916666666667" />
         <entry key="..\:/capstone/Capstone/Albatross/Albatross/app/src/main/res/layout/mypage_sub1.xml" value="0.24947916666666667" />
       </map>
     </option>

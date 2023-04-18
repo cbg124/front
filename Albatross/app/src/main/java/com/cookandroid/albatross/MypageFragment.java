@@ -67,35 +67,38 @@ public class MypageFragment extends ListFragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_mypage, container, false);
 
-        String[] values = new String[]{"내정보", "이력서", "저장된 시간표"};
+        String[] values = new String[]{"내정보\n\n\n\n\n\n\n\n\n\n\n\n\n", "내 시간표\n\n\n\n\n\n\n\n\n\n\n\n\n"};
+
+
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, values);
+        setListAdapter(adapter);
 
         ListView listView = rootView.findViewById(android.R.id.list);
-        listView.setAdapter(adapter);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getActivity(), "123456", Toast.LENGTH_LONG).show();
-                switch (position) {
-                    case 0:
-                        //String selectedData = (String) parent.getItemAtPosition(position);
-                        Intent intent = new Intent(getActivity(), MypageSub1.class);
-                        //intent.putExtra("selected_data", selectedData);
-                        startActivity(intent);
-                        break;
-                    case 1:
-                        String selectedData2 = (String) parent.getItemAtPosition(position);
-                        Intent intent2 = new Intent(getActivity(), MypageSub1.class);
-                        intent2.putExtra("selected_data", selectedData2);
-                        startActivity(intent2);
-                        break;
-                    default:
-                        break;
-                }
+
             }
         });
+
         return rootView;
         //return inflater.inflate(R.layout.fragment_mypage, container, false);
+    }
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+
+        switch (position) {
+            case 0:
+                Intent intent = new Intent(getActivity(), MypageSub1.class);
+                startActivity(intent);
+                break;
+            case 1:
+                Intent intent2 = new Intent(getActivity(), MypageSub1.class);
+                startActivity(intent2);
+                break;
+            default:
+                break;
+        }
     }
 }
